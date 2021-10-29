@@ -1,0 +1,149 @@
+/*
+Template Name:Absoulte Powerup
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+
+@media only screen and  (max-device-width:1199px) {
+    .tv-heading h1 {
+        font-size: 50px;
+    }
+}
+@media only screen and (min-device-width:768px) {
+    .tv-clear > div:nth-child(3n+1),  .tv-service-clear > div:nth-child(3n+1) {
+        clear: both;
+    }
+}
+@media only screen and (min-device-width:768px) and (max-device-width:991px) {
+    .navbar-default .navbar-nav > li > a {
+        font-size: 12px;
+    }
+    .tv-bannersub-heading p {
+        width: 80%;
+    }
+    .team-circle {
+        font-size: 14px;
+        height: 25px;
+        padding: 3px 0;
+        width: 25px;
+    }
+    .tv-adv-one-contain h3 {
+        font-size: 40px;
+    }
+    .tv-service-contain {
+        margin-top: 20px;
+    }
+    .tv-adv-two-bg h3 {
+        font-size: 30px;
+    }
+    .tv-adv-two-bg p {
+        font-size: 22px;
+    }
+    .tv-adv-three-contain h3 {
+        font-size: 28px;
+    }
+    .tv-footer-social {
+        padding-bottom: 50px;
+    }
+    .tv-clear > div:nth-child(3n+1), .tv-service-clear > div:nth-child(3n+1) {
+        clear: none;
+    }
+    .tv-clear > div:nth-child(2n+1), .tv-service-clear > div:nth-child(2n+1) {
+        clear: both;
+    }
+}
+@media only screen and  (max-device-width:991px) {
+    .tv-heading h1 {
+        font-size: 42px;
+    }
+}
+@media only screen and (max-device-width:767px){
+    .tv-heading h1 {
+        font-size: 32px;
+    }
+    .tv-bannersub-heading p {
+        width: 97%;
+        margin-top: 30px;
+    }
+    .tv-banner-bg {
+        height: 450px;
+    }
+    .tv-heading-title h2 {
+        font-size: 30px;
+    }
+    .logoborder > img {
+        max-width: 40px;
+    }
+    .tv-adv-one-contain h3 {
+        color: #fff;
+        font-size: 24px;
+    }
+    .tv-adv-two-bg h3 {
+        font-size: 24px;
+    }
+    .tv-adv-two-bg p {
+        font-size: 16px;
+    }
+    .tv-image {
+        margin-bottom: 30px;
+    }
+    .tv-left-contain ,.tv-center-contain , .tv-right-contain{
+        display:block;
+        text-align: center;
+    }
+    .tv-adv-three-contain h3 {
+        font-size: 24px;
+    }
+    .tv-center-contain::after{
+        display: none;
+    }
+    .tv-center-contain{
+        margin-left: 0;
+    }
+    .learn-more button , .contactus button {
+        padding: 12px;
+    }
+    .tv-adv-three-conatin h3 {
+        font-size: 26px;
+    }
+    .tv-right-contain{
+        position: static !important;
+        right: 0;
+        top: 0;
+        transform: translateY(0%);
+    }
+    .tv-service-contian {
+        margin-top: 20px;
+    }
+    .tv-counter-sub-contian1{
+        margin-top: 20px;
+    }
+    .tv-tt-sub-contain > div + div {
+        margin-top: 10px;
+    }
+    .tv-footer-social {
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+}
+@media only screen and (min-device-width:600px) and (max-device-width:767px) {
+    .custom-width-25{
+        width: 25%;
+        float: left; 
+    }
+}
+@media (max-device-width:479px) {
+    .tv-heading h1 {
+        font-size: 26px;
+    }
+    .tv-footer-social-icon {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .tv-footer-social a {
+        margin-left: 20px;
+    }
+}
