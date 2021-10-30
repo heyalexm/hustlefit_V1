@@ -59,10 +59,16 @@ License URI: http://www.themevault.net/license/
     .tv-heading h1 {
         font-size: 42px;
     }
+    .tv-heading-title h2 {
+        font-size: 36px;
+    }
 }
 @media only screen and (max-device-width:767px){
     .tv-heading h1 {
-        font-size: 32px;
+        font-size: 44px;
+    }
+    .tv-heading-title h2 {
+        font-size: 38px;
     }
     .tv-bannersub-heading p {
         width: 97%;
@@ -72,7 +78,7 @@ License URI: http://www.themevault.net/license/
         height: 450px;
     }
     .tv-heading-title h2 {
-        font-size: 30px;
+        font-size: 26px;
     }
     .logoborder > img {
         max-width: 40px;
@@ -137,7 +143,10 @@ License URI: http://www.themevault.net/license/
 }
 @media (max-device-width:479px) {
     .tv-heading h1 {
-        font-size: 26px;
+        font-size: 35px;
+    }
+    .tv-heading-title h2 {
+        font-size: 28px;
     }
     .tv-footer-social-icon {
         padding-left: 15px;
