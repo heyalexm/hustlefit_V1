@@ -956,6 +956,7 @@ input, select, textarea {
 
 /* Thumbnails */
 
+
 	#thumbnails {
 		display: -moz-flex;
 		display: -webkit-flex;
